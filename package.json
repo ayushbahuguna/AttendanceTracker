@@ -4,7 +4,12 @@
   "description": "A website to help students manage their attendance records.",
   "main": "app.js",
   "scripts": {
-    "test": "npm test tests/**/*.test.js"
+    "start": "node app.js",
+    "test": "mocha tests/**/*.test.js",
+    "test-watch": "nodemon --exec 'npm test'"
+  },
+  "engines": {
+    "node": "7.5.0"
   },
   "repository": {
     "type": "git",
@@ -19,5 +24,17 @@
   "bugs": {
     "url": "https://github.com/prajjwaldimri/AttendanceTracker/issues"
   },
-  "homepage": "https://github.com/prajjwaldimri/AttendanceTracker#readme"
+  "homepage": "https://github.com/prajjwaldimri/AttendanceTracker#readme",
+  "dependencies": {
+    "express": "^4.15.0",
+    "hbs": "^4.0.1",
+    "moment": "^2.17.1",
+    "mongodb": "^2.2.24",
+    "mongoose": "^4.8.5"
+  },
+  "devDependencies": {
+    "expect": "^1.20.2",
+    "mocha": "^3.2.0",
+    "nodemon": "^1.11.0"
+  }
 }
