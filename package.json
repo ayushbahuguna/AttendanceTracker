@@ -1,0 +1,23 @@
+{
+  "name": "attendance-tracker",
+  "version": "0.0.1",
+  "description": "A website to help students manage their attendance records.",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm test tests/**/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prajjwaldimri/AttendanceTracker.git"
+  },
+  "keywords": [
+    "attendance",
+    "tracker"
+  ],
+  "author": "Prajjwal Dimri",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/prajjwaldimri/AttendanceTracker/issues"
+  },
+  "homepage": "https://github.com/prajjwaldimri/AttendanceTracker#readme"
+}
